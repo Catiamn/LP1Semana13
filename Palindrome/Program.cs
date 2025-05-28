@@ -36,7 +36,7 @@ namespace Palindrome
         Array.Reverse(cArray); //reverse do array
         string revStr = new string(cArray);
 
-        return text == revStr;
+        return text == revStr; //Comaparar o texto original com o reverse 
     }
 
 
